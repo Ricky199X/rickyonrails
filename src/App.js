@@ -3,12 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className='App'>
-      <p>Hello There</p>
-      <p>This is another change</p>
-    </div>
-  );
+  return <p class='deep-purple-text'>App.js</p>;
 }
 
 export default App;
