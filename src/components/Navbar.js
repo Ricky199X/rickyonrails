@@ -6,22 +6,21 @@ const Navbar = () => {
     <nav class="transparent">
       <div class="nav-wrapper">
         <div class="container">
-          <a href="#" class="brand-logo">Logo</a>
+          <a class="brand-logo left-align">Ricky Rojas</a>
           <ul id="nav-mobile" class="right hide-on-small-and-down">
             <li>
-              <a href="#" class="black-text">Home</a>
+              <a href="#" class="white-text">Home</a>
             </li>
             <li>
-              <a href="#" class="black-text">About</a>
+              <a href="#" class="white-text">About</a>
             </li>
             <li>
-              <a href="#" class="black-text">Contact</a>
+              <a href="#" class="white-text">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    // <h1>This is the navbar</h1>
   )
 };
 
