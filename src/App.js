@@ -10,14 +10,17 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 import About from './components/About'
 import Projects from './components/Projects'
+import Home from './components/Home'
 
 class App extends React.Component {
+
   render() {
     return (
       <Router>
         <div>
           <Navbar />
           <Switch>
+            <Route exact path="/" component={Home} />
             <Route exact path='/about' component={About} />
             <Route exact path='/projects' component={Projects} />
             <Route exact path='/contact' component={Contact} />
