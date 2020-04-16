@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // Imported Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
+import Contact from './components/Contact'
+import About from './components/About'
 
 class App extends React.Component {
   render() {
