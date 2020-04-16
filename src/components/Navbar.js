@@ -9,10 +9,10 @@ const Navbar = () => {
           <a class="brand-logo left-align">Ricky Rojas</a>
           <ul id="nav-mobile" class="right hide-on-small-and-down">
             <li>
-              <Link to='/'>Home</Link>
+              <Link to='/about' class="white-text">About</Link>
             </li>
             <li>
-              <Link to='/about' class="white-text">About</Link>
+              <Link to='/projects' class="white-text">Projects</Link>
             </li>
             <li>
               <Link to='/contact' class="white-text">Contact</Link>
@@ -24,4 +24,4 @@ const Navbar = () => {
   )
 };
 
-export default Navbar;
+export default withRouter(Navbar);

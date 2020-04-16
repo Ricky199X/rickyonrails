@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, accusamus.
-        </p>
+        <div class="container center">
+            <h1 class="white-text">Contact Page</h1>
+        </div>
     )
 }
 

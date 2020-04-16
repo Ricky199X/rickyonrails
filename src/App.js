@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import About from './components/About'
+import Projects from './components/Projects'
 
 class App extends React.Component {
   render() {
@@ -18,9 +19,9 @@ class App extends React.Component {
           <Navbar />
           <Switch>
             <Route exact path='/about' component={About} />
+            <Route exact path='/projects' component={Projects} />
             <Route exact path='/contact' component={Contact} />
           </Switch>
-          <Footer />
         </div>
       </Router>
     )
