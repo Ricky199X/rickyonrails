@@ -1,13 +1,14 @@
 import React from 'react'
+import M from 'materialize-css'
 
 const Footer = () => {
 
     return (
-        <div class="footer-copyright">
-            <div class="container">
-                Copyright &copy; 2020
+        <footer class="footer">
+            <div class="container white-text">
+                Ricky Rojas &copy; 2020
             </div>
-        </div>
+        </footer>
     )
 }
 

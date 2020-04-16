@@ -26,6 +26,7 @@ class App extends React.Component {
             <Route exact path='/contact' component={Contact} />
           </Switch>
         </div>
+        <Footer />
       </Router>
     )
   }
