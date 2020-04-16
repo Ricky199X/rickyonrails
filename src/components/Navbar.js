@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link, withRouter } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -9,13 +9,13 @@ const Navbar = () => {
           <a class="brand-logo left-align">Ricky Rojas</a>
           <ul id="nav-mobile" class="right hide-on-small-and-down">
             <li>
-              <a href="#" class="white-text">Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-              <a href="#" class="white-text">About</a>
+              <Link to='/about' class="white-text">About</Link>
             </li>
             <li>
-              <a href="#" class="white-text">Contact</a>
+              <Link to='/contact' class="white-text">Contact</Link>
             </li>
           </ul>
         </div>
