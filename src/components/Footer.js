@@ -4,9 +4,11 @@ import M from 'materialize-css'
 const Footer = () => {
 
     return (
-        <footer class="footer">
+        <footer class="footer center">
             <div class="container white-text">
-                Ricky Rojas &copy; 2020
+                <div className="col">
+                    Ricky Rojas &copy; 2020
+                </div>
             </div>
         </footer>
     )
