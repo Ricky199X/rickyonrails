@@ -45,7 +45,7 @@ body {
 .footer {
   width: 100%;
   position: fixed;
-  padding: 32em;
+  padding: 10em;
 
 }
 
@@ -68,4 +68,11 @@ body {
 
 a {
   padding-right: 1em; 
+}
+
+.container {
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 30px;
 }

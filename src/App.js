@@ -18,17 +18,15 @@ class App extends React.Component {
     return (
       <Router>
         <div className="page-container">
-          <div className="content-wrapper">
-            <Navbar />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path='/about' component={About} />
-              <Route exact path='/projects' component={Projects} />
-              <Route exact path='/contact' component={Contact} />
-            </Switch>
-          </div>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/contact' component={Contact} />
+          </Switch>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     )
   }
