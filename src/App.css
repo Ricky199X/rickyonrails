@@ -58,12 +58,8 @@ body {
   margin: auto;
   width: 50%;
   border: 3px;
-  padding: 50px;
+  padding: 30px;
   text-align: center;
-}
-
-.section {
-  opacity: 0.4;
 }
 
 a {
