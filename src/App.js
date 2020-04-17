@@ -28,7 +28,7 @@ class App extends React.Component {
             </Switch>
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     )
   }
