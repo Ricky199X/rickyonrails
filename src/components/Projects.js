@@ -7,7 +7,7 @@ class Projects extends React.Component {
             <div class="container project-page">
 
                 <div class="projects-main-content center">
-                    <h1 class="white-text">Projects Page</h1>
+                    <h1 class="white-text">Projects</h1>
                 </div>
                 <div class="projects">
                     <div class=" project project1 right-align" >
@@ -16,8 +16,12 @@ class Projects extends React.Component {
                             <h4 class="white-text ">
                                 Gigfreq
                             </h4>
-                            <h2 class="white-text">Concert Tracking App</h2>
-                            <p class="white-text">This is a simple concert tracker!</p>
+                            <p class="white-text">
+                                GigFreq is an app that helps connect music
+                                lovers with their favorite bands and track upcoming concerts in their area.
+                                Bands with administrator access can post their upcoming shows, track ticket sale metrics, and connect with their following.
+                                This app was developed entirely with Ruby on Rails, and features Facebook user login functionality via Omniauth.
+                            </p>
                         </div>
                         {/* Text Items End Here */}
 
@@ -38,8 +42,10 @@ class Projects extends React.Component {
                             <h4 class="white-text ">
                                 Record Collector
                             </h4>
-                            <h2 class="white-text">Record Collecting App</h2>
-                            <p class="white-text">This is a record collecting app!</p>
+                            <p class="white-text">
+                                Record Collector is a Spotify clone built in March 2020 for my capstone project at Flatiron School.
+                                This application features a React/Redux frontend and Ruby on Rails api-only backend.
+                            </p>
                         </div>
                         {/* Project 2 Text Items End Here */}
 
@@ -58,8 +64,11 @@ class Projects extends React.Component {
                             <h4 class="white-text ">
                                 Quiz-It!
                             </h4>
-                            <h2 class="white-text">A Fun Trivia App</h2>
-                            <p class="white-text">Come test your knowledge!</p>
+                            <p class="white-text">
+                                There is no greater skill to have than to know all the answers to the world's most trivial questions!
+                                Quiz-It! is a trivia application buit in January 2020 during my 4th module at Flatiron School.
+                                This app features a JavaScript frontend with a Ruby on Rails api-only backend.
+                            </p>
                         </div>
                         {/* Project 3 Text Items End Here */}
 
