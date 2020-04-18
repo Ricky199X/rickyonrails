@@ -83,6 +83,7 @@ a {
 .project1 {
   background-image: url("assets/people-in-concert-1763075.jpg");
   /* background-repeat: no-repeat; */
+  background-attachment: fixed;
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -94,6 +95,7 @@ a {
 .project2 {
   background-image: url("assets/black-vinyl-record-playing-on-turntable-1389429.jpg");
   /* background-repeat: no-repeat; */
+  background-attachment: fixed;
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -103,8 +105,10 @@ a {
 
 
 .project3 {
-  background-image: url("assets/Trivia-Night.png");
+  background-image: url("assets/turned-on-pendant-lamp-132340.jpg");
+  background-position: left top;
   /* background-repeat: no-repeat; */
+  background-attachment: fixed;
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -129,5 +133,14 @@ h2 {
 
 .external-icon-container {
   padding-top: 30px;
+  padding-right: 10px;
+  opacity: 0.5;
+}
+
+.external-icon-container:hover {
+  opacity: 1.0;
+}
+
+h5 {
   padding-right: 10px;
 }

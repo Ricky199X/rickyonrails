@@ -21,12 +21,12 @@ class Projects extends React.Component {
                         </div>
                         {/* Text Items End Here */}
 
-                        <div class="external-icon-container white">
+                        <div class="external-icon-container ">
                             <a href="https://github.com/Ricky199X/gigfreq"
                                 target="https://github.com/Ricky199X/gigfreq"
                                 class="black-text">
-                                <i class="fab fa-github fa-2x"></i>
-                                <h5>Github</h5>
+                                <i class="fab fa-github fa-3x"></i>
+                                <h5 class="white-text">Github</h5>
                             </a>
                         </div>
                     </div>
@@ -43,12 +43,12 @@ class Projects extends React.Component {
                         </div>
                         {/* Project 2 Text Items End Here */}
 
-                        <div class="external-icon-container white">
+                        <div class="external-icon-container">
                             <a href="https://github.com/Ricky199X/record-frontend"
                                 target="https://github.com/Ricky199X/record-frontend"
                                 class="black-text">
-                                <i class="fab fa-github fa-2x"></i>
-                                <h5>Github</h5>
+                                <i class="fab fa-github fa-3x"></i>
+                                <h5 class="white-text">Github</h5>
                             </a>
                         </div>
                     </div>
@@ -63,12 +63,12 @@ class Projects extends React.Component {
                         </div>
                         {/* Project 3 Text Items End Here */}
 
-                        <div class="external-icon-container white">
+                        <div class="external-icon-container">
                             <a href="https://github.com/Ricky199X/new-quiz-frontend"
                                 target="https://github.com/Ricky199X/new-quiz-frontend"
                                 class="black-text">
-                                <i class="fab fa-github fa-2x"></i>
-                                <h5>Github</h5>
+                                <i class="fab fa-github fa-3x"></i>
+                                <h5 class="white-text">Github</h5>
                             </a>
                         </div>
                     </div>
