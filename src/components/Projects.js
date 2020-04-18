@@ -10,13 +10,31 @@ class Projects extends React.Component {
                 </div>
                 <div class="projects">
                     <div class=" project project1" >
-                        <h4 class="white-text right-align">Gigfreq</h4>
+                        <div className="project1-text right-align">
+                            <h4 class="white-text ">
+                                Gigfreq
+                            </h4>
+                            <h2 class="white-text">Concert Tracking App</h2>
+                            <p class="white-text">This is a simple concert tracker!</p>
+                        </div>
                     </div>
                     <div class="project project2">
-                        <h4 class="white-text right-align">Record Collector</h4>
+                        <div className="project2-text right-align">
+                            <h4 class="white-text ">
+                                Record Collector
+                            </h4>
+                            <h2 class="white-text">Record Collecting App</h2>
+                            <p class="white-text">This is a record collecting app!</p>
+                        </div>
                     </div>
                     <div class="project project3">
-                        <h4 class="white-text  right-align">Quiz-It</h4>
+                        <div className="project3-text right-align">
+                            <h4 class="white-text ">
+                                Quiz-It!
+                            </h4>
+                            <h2 class="white-text">A Fun Trivia App</h2>
+                            <p class="white-text">Come test your knowledge!</p>
+                        </div>
                     </div>
                 </div>
             </div>
