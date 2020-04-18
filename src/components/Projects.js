@@ -5,6 +5,7 @@ class Projects extends React.Component {
     render() {
         return (
             <div class="container project-page">
+
                 <div class="projects-main-content center">
                     <h1 class="white-text">Projects Page</h1>
                 </div>
@@ -19,6 +20,15 @@ class Projects extends React.Component {
                             <p class="white-text">This is a simple concert tracker!</p>
                         </div>
                         {/* Text Items End Here */}
+
+                        <div class="external-icon-container white">
+                            <a href="https://github.com/Ricky199X/gigfreq"
+                                target="https://github.com/Ricky199X/gigfreq"
+                                class="black-text">
+                                <i class="fab fa-github fa-2x"></i>
+                                <h5>Github</h5>
+                            </a>
+                        </div>
                     </div>
                     <div class="project project2">
                         {/* Project 2 Text Items */}
@@ -43,6 +53,11 @@ class Projects extends React.Component {
                         {/* Project 3 Text Items End Here */}
                     </div>
                 </div>
+
+
+
+
+
             </div>
         )
     }

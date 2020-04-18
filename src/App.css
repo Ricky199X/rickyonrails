@@ -126,3 +126,8 @@ p {
 h2 {
   font-weight: lighter;
 }
+
+.external-icon-container {
+  padding-top: 30px;
+  padding-right: 10px;
+}
