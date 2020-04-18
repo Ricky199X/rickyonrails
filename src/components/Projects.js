@@ -30,9 +30,11 @@ class Projects extends React.Component {
                             </a>
                         </div>
                     </div>
-                    <div class="project project2">
+
+
+                    <div class="project project2 right-align">
                         {/* Project 2 Text Items */}
-                        <div className="project2-text right-align">
+                        <div className="project2-text">
                             <h4 class="white-text ">
                                 Record Collector
                             </h4>
@@ -40,10 +42,19 @@ class Projects extends React.Component {
                             <p class="white-text">This is a record collecting app!</p>
                         </div>
                         {/* Project 2 Text Items End Here */}
+
+                        <div class="external-icon-container white">
+                            <a href="https://github.com/Ricky199X/record-frontend"
+                                target="https://github.com/Ricky199X/record-frontend"
+                                class="black-text">
+                                <i class="fab fa-github fa-2x"></i>
+                                <h5>Github</h5>
+                            </a>
+                        </div>
                     </div>
-                    <div class="project project3">
+                    <div class="project project3 right-align">
                         {/* Project 3 Text Items */}
-                        <div className="project3-text right-align">
+                        <div className="project3-text">
                             <h4 class="white-text ">
                                 Quiz-It!
                             </h4>
@@ -51,6 +62,15 @@ class Projects extends React.Component {
                             <p class="white-text">Come test your knowledge!</p>
                         </div>
                         {/* Project 3 Text Items End Here */}
+
+                        <div class="external-icon-container white">
+                            <a href="https://github.com/Ricky199X/new-quiz-frontend"
+                                target="https://github.com/Ricky199X/new-quiz-frontend"
+                                class="black-text">
+                                <i class="fab fa-github fa-2x"></i>
+                                <h5>Github</h5>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
