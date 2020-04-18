@@ -73,8 +73,41 @@ a {
   padding-left: 30px;
 }
 
+.project {
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+
+
 .project1 {
-  background-image: url(/static/noah-bg.3b458bfd.jpg);
-  background-repeat: no-repeat;
+  background-image: url("assets/people-in-concert-1763075.jpg");
+  /* background-repeat: no-repeat; */
   background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+
+.project2 {
+  background-image: url("assets/black-vinyl-record-playing-on-turntable-1389429.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+
+.project3 {
+  background-image: url("assets/Trivia-Night.png");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
