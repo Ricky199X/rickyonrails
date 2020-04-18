@@ -9,16 +9,19 @@ class Projects extends React.Component {
                     <h1 class="white-text">Projects Page</h1>
                 </div>
                 <div class="projects">
-                    <div class=" project project1" >
-                        <div className="project1-text right-align">
+                    <div class=" project project1 right-align" >
+                        {/* Project 1 Text Items */}
+                        <div class="project1-text">
                             <h4 class="white-text ">
                                 Gigfreq
                             </h4>
                             <h2 class="white-text">Concert Tracking App</h2>
                             <p class="white-text">This is a simple concert tracker!</p>
                         </div>
+                        {/* Text Items End Here */}
                     </div>
                     <div class="project project2">
+                        {/* Project 2 Text Items */}
                         <div className="project2-text right-align">
                             <h4 class="white-text ">
                                 Record Collector
@@ -26,8 +29,10 @@ class Projects extends React.Component {
                             <h2 class="white-text">Record Collecting App</h2>
                             <p class="white-text">This is a record collecting app!</p>
                         </div>
+                        {/* Project 2 Text Items End Here */}
                     </div>
                     <div class="project project3">
+                        {/* Project 3 Text Items */}
                         <div className="project3-text right-align">
                             <h4 class="white-text ">
                                 Quiz-It!
@@ -35,6 +40,7 @@ class Projects extends React.Component {
                             <h2 class="white-text">A Fun Trivia App</h2>
                             <p class="white-text">Come test your knowledge!</p>
                         </div>
+                        {/* Project 3 Text Items End Here */}
                     </div>
                 </div>
             </div>
