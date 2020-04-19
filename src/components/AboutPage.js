@@ -55,7 +55,28 @@ const AboutPage = () => {
                             </span>
                         </div>
                         <div className="col s4">
-
+                            <span class="rails">
+                                <i class="devicon-rails-plain"></i>
+                                <p class="white-text">Rails</p>
+                            </span>
+                        </div>
+                        <div className="col s4">
+                            <span class="HTML">
+                                <i class="fab fa-html5 white-text fa-4x"></i>
+                                <p class="white-text">HTML 5</p>
+                            </span>
+                        </div>
+                        <div className="col s4">
+                            <span class="CSS">
+                                <i class="fab fa-css3-alt white-text fa-4x"></i>
+                                <p class="white-text">CSS 3</p>
+                            </span>
+                        </div>
+                        <div className="col s4">
+                            <span class="git">
+                                <i class="fab fa-git-alt white-text fa-4x"></i>
+                                <p class="white-text">Git</p>
+                            </span>
                         </div>
                     </div>
                 </div>

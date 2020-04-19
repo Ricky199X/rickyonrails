@@ -161,3 +161,10 @@ h5 {
   box-sizing: inherit;
   color: white;
 }
+
+.devicon-rails-plain {
+  font-size: 8rem;
+  box-sizing: inherit;
+  color: white;
+  padding-bottom: 20px;
+}
