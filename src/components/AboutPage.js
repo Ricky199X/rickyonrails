@@ -50,7 +50,7 @@ const AboutPage = () => {
                         </div>
                         <div className="col s4">
                             <span class="ruby">
-                                <i class="fab fa-ruby white-text fa-4x"></i>
+                                <i class="devicon-ruby-plain"></i>
                                 <p class="white-text">Ruby</p>
                             </span>
                         </div>
