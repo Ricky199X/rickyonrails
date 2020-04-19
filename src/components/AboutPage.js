@@ -17,7 +17,7 @@ const AboutPage = () => {
                             <div class="ricky-picture">
                                 <img class="circle responsive-img" src={require("../assets/download.jpg")} width="400" height="400" />
                             </div>
-                            <h3 class="white-text">Ricky Rojas</h3>
+                            <h1 class="white-text">Ricky Rojas</h1>
                             <p class="white-text">Software Engineer</p>
 
                             {/* About Blurb */}
@@ -38,7 +38,7 @@ const AboutPage = () => {
                     <div class="row text-center center">
                         <div className="col s12 l3">
                             <span class="js">
-                                <i class="fab fa-js-square white-text fa-4x"></i>
+                                <i class="fab fa-js-square white-text fa-4x waves-effect waves-light"></i>
                                 <p class="white-text">JavaScript</p>
                             </span>
                         </div>

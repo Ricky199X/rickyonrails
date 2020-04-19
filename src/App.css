@@ -177,7 +177,8 @@ h5 {
 } */ 
 
 .section-skills {
-  width: 100%
+  width: 100%;
+  padding-top: 2px
 
 }
 
