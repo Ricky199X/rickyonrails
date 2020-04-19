@@ -163,8 +163,27 @@ h5 {
 }
 
 .devicon-rails-plain {
-  font-size: 8rem;
+  font-size: 8.2rem;
   box-sizing: inherit;
   color: white;
   padding-bottom: 20px;
+}
+
+/* .devicon-webpack-plain {
+  font-size: 8.29rem;
+  /* box-sizing: inherit; */
+  /* color: white;
+  padding-bottom: 20px;
+} */ 
+
+.section-skills {
+  width: 100%
+
+}
+
+.container {
+  width: 80%;
+  padding: 20px;
+  align-content: center;
+  
 }
