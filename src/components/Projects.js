@@ -58,6 +58,7 @@ class Projects extends React.Component {
                             </a>
                         </div>
                     </div>
+
                     <div class="project project3 right-align">
                         {/* Project 3 Text Items */}
                         <div className="project3-text">
@@ -75,7 +76,7 @@ class Projects extends React.Component {
                         <div class="external-icon-container">
                             <a href="https://github.com/Ricky199X/new-quiz-frontend"
                                 target="https://github.com/Ricky199X/new-quiz-frontend"
-                                class="black-text">
+                                class="white-text">
                                 <i class="fab fa-github fa-3x"></i>
                                 <h5 class="white-text">Github</h5>
                             </a>
