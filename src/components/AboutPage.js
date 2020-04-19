@@ -35,15 +35,24 @@ const AboutPage = () => {
                 <h1 class="white-text center">Developer Toolkit</h1>
 
                 <div class="container">
-                    <div class="row text-center">
+                    <div class="row text-center center">
                         <div className="col s4">
-
+                            <span class="js">
+                                <i class="fab fa-js-square white-text fa-4x"></i>
+                                <p class="white-text">JavaScript</p>
+                            </span>
                         </div>
                         <div className="col s4">
-
+                            <span class="react">
+                                <i class="fab fa-react white-text fa-4x"></i>
+                                <p class="white-text">React.js</p>
+                            </span>
                         </div>
                         <div className="col s4">
-
+                            <span class="ruby">
+                                <i class="fab fa-ruby white-text fa-4x"></i>
+                                <p class="white-text">Ruby</p>
+                            </span>
                         </div>
                         <div className="col s4">
 
