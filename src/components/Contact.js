@@ -2,18 +2,19 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div class="contact-page-container">
+        <div class="container contact-page-container">
             <div class="message-container ">
                 <h1 class="center-align white-text">Contact</h1>
                 <h3 class="center-align white-text">Want to chat? Let's connect!</h3>
             </div>
-            <div class="icons">
 
+            <br></br>
+            <div class="container icons">
                 <div class="row">
                     <div className="col s12">
 
                         {/* Icons Container */}
-                        <div class="icons-container black">
+                        <div class="icons-container black col s12">
                             <a href="https://twitter.com/rickyonrails"
                                 target="https://twitter.com/rickyonrails"
                                 class="white-text">

@@ -9,6 +9,7 @@ class Projects extends React.Component {
                 <div class="projects-main-content center">
                     <h1 class="white-text">Projects</h1>
                 </div>
+
                 <div class="projects">
                     <div class=" project project1 right-align" >
                         {/* Project 1 Text Items */}
