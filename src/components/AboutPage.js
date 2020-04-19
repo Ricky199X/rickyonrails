@@ -21,7 +21,7 @@ const AboutPage = () => {
                             <p class="white-text">Software Engineer</p>
 
                             {/* About Blurb */}
-                            <p class="white-text">Hi, I'm Ricky! I'm a Brooklyn-based Software Engineer with experience in Ruby on Rails, JavaScript, React.js, and Redux.
+                            <p class="white-text flow-text">Hi, I'm Ricky! I'm a Brooklyn-based Software Engineer with experience in Ruby on Rails, JavaScript, React.js, and Redux.
                             I am a lifelong tech enthusiast who loves to build products and immersive experiences for others. I am currently looking for an opportunity to work with like-minded individuals where I can continue to learn and grow as a tech professional.
                             Drawing on my background in music, I leverage my creativity and engineering skills to bring my visions to life.
                             </p>
