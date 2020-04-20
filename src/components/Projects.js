@@ -17,7 +17,7 @@ class Projects extends React.Component {
                             <h4 class="white-text ">
                                 Gigfreq
                             </h4>
-                            <p class="white-text">
+                            <p class="white-text flow-text">
                                 GigFreq is an app that helps connect music
                                 lovers with their favorite bands and track upcoming concerts in their area.
                                 Bands with administrator access can post their upcoming shows, track ticket sale metrics, and connect with their following.
@@ -43,7 +43,7 @@ class Projects extends React.Component {
                             <h4 class="white-text ">
                                 Record Collector
                             </h4>
-                            <p class="white-text">
+                            <p class="white-text flow-text">
                                 Record Collector is a multi-page Spotify clone built in March 2020 for my capstone project at Flatiron School.
                                 Record Collector utilizes object-oriented programming and technologies such as React.js, Redux, Ruby on Rails, JavaScript, and SQLite3.
                                 The application features the core functionalities present on Spotify.
@@ -67,7 +67,7 @@ class Projects extends React.Component {
                             <h4 class="white-text ">
                                 Quiz-It!
                             </h4>
-                            <p class="white-text">
+                            <p class="white-text flow-text">
                                 Quiz-It! is a trivia application buit in January 2020 during my 4th module at Flatiron School.
                                 This app features a JavaScript frontend with a Ruby on Rails api-only backend. This app utilizes a third-party API to acquire category
                                 and quiz data along with an upvote system responsive to user input.
