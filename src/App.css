@@ -140,7 +140,7 @@ h2 {
 .external-icon-container {
   padding-top: 30px;
   padding-right: 10px;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 .external-icon-container:hover {
@@ -190,11 +190,15 @@ h5 {
 }
 
 i.fab:hover {
-  color: rgb(156, 229, 239);
+  color: rgb(92, 155, 163);
 }
 
 .active {
-  background-color: rgb(156, 229, 239);
+  background-color: transparent;
+}
+
+.active:hover {
+  background-color: rgb(92, 155, 163);
 }
 
 nav {
