@@ -178,7 +178,7 @@ h5 {
 
 .section-skills {
   width: 100%;
-  padding-top: 2px
+  padding-top: 0px
 
 }
 
@@ -191,4 +191,12 @@ h5 {
 
 i.fab:hover {
   color: rgb(156, 229, 239);
+}
+
+.active {
+  background-color: rgb(156, 229, 239);
+}
+
+nav {
+  font-size: large;
 }
