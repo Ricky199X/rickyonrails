@@ -188,3 +188,7 @@ h5 {
   align-content: center;
   
 }
+
+i.fab:hover {
+  color: rgb(156, 229, 239);
+}

@@ -10,6 +10,7 @@
 
 body {
   background-image: url("../src/assets/dark-starry-sky-1694000.jpg");
+  opacity: 90%;
   background-attachment: fixed;
   background-repeat: no-repeat;
 

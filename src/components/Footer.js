@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer class="footer center">
             <div class="container white-text">
-                <div className="col">
+                <div className="row">
                     Ricky Rojas &copy; 2020
                 </div>
             </div>
