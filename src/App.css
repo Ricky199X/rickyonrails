@@ -220,13 +220,19 @@ nav {
 }
 
 .page-footer {
-  padding-top: 20px;
+  padding: 40px;
   color: #fff;
   background-color: rgb(92, 155, 163);
 }
 
 .container-about-page {
   padding-bottom: 60px;
+}
+
+.container-project-page {
+  padding: 50px;
+  padding-top: 40px;
+  padding-bottom: 80px
 }
 
 .skills-container {

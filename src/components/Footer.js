@@ -4,7 +4,7 @@ import M from 'materialize-css'
 const Footer = () => {
 
     return (
-        <footer class="page-footer">
+        <footer class="page-footer transparent">
             <div class="footer-container">
                 <div class="col m4 center">
                     <span class="white-text">Ricky Rojas &copy; 2020</span>
