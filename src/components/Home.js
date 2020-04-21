@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div class="text-align center">
             <div class="home-container">
-                <h1 class="home-message white-text center">Enter</h1>
+                <h1 class="home-message" id="home-message">Enter</h1>
             </div>
         </div>
 
