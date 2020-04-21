@@ -189,7 +189,7 @@ h5 {
   width: 80%;
   padding: 20px;
   align-content: center;
-  
+  min-height: 100vh;
 }
 
 i.fab:hover {
@@ -227,12 +227,13 @@ nav {
 
 .container-about-page {
   padding-bottom: 60px;
+  min-height: 100vh;
 }
 
 .container-project-page {
   padding: 50px;
   padding-top: 40px;
-  padding-bottom: 80px
+  padding-bottom: 80px;
 }
 
 .skills-container {
@@ -240,6 +241,27 @@ nav {
   padding-top: 50px;
   padding-bottom: 50px
 }
+
+
+  .home-container {
+    padding: 50px;
+    /* padding-left: 70px; */
+    width: -1000px;
+    height: 30px;
+    /* display: inline-flex; */
+    min-height: 100vh;
+    /* align-items:stretch; */
+    /* position: absolute;  */
+    /* left: 70%; */
+    
+}
+
+/* .home-message {
+  left: 100%
+} */
+
+
+
 
 body {
   display: flex;
