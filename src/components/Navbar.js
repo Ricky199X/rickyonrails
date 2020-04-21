@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="nav">
       <nav class="transparent">
         <div class="container">
-          <a class="brand-logo left-align">Ricky Rojas</a>
+          <Link to='/' class="brand-logo left-align">Ricky Rojas</Link>
           <ul id="nav-mobile" class="right hide-on-small-and-down ">
             <li>
               <Link to='/about' class="white-text active">About</Link>
