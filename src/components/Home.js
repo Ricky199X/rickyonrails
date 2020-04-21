@@ -9,31 +9,27 @@ class Home extends React.Component {
         }
     }
 
-    // check for if redirect should occur
-    // componentDidUpdate(prevProps) {
-    //     if (!prevProps && this.props.user.loggedIn) {
-    //         this.setState({
-    //             shouldRedirect: true
-    //         })
-    //     }
-    // }
-
-    // componentDidMount() {
-    //     console.log(this.state)
-    // }
+    handleRedirect = () => {
+        this.setState({
+            shouldRedirect: true
+        })
+    }
 
     render() {
-
-
-        return (
-            <div class="text-align center">
-                <div class="home-container">
-                    <h1 class="home-message pulse" id="home-message">Welcome!</h1>
-                    <a class="btn-floating btn-large cyan lighten-4 pulse"><i class="material-icons black-text">double_arrow</i></a>
+        if (this.state.shouldRedirect) {
+            return <Redirect to='/about' />
+        } else {
+            return (
+                <div class="text-align center">
+                    <div class="home-container">
+                        <h1 class="home-message pulse" id="home-message">Welcome!</h1>
+                        <button class="btn-floating btn-large cyan lighten-4 pulse" onClick={this.handleRedirect}>
+                            <i class="material-icons black-text">double_arrow</i>
+                        </button>
+                    </div>
                 </div>
-            </div>
-
-        )
+            )
+        }
     }
 
 }
