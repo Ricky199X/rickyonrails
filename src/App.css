@@ -271,6 +271,30 @@ body {
 
 .home-message {
   padding-top: 100px;
-  color: #61dafb;
+  color: white;
   font-size: 7rem;
+}
+
+/* .btn-floating {
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  line-height: 40px;
+  padding: 0;
+  background-color: #26a69a;
+  border-radius: 50%;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  cursor: pointer;
+  vertical-align: middle;
+} */
+
+i.material-icons {
+  font-size: 50px;
+  /* padding-top: 5px; */
+  /* position: inherit; */
 }
