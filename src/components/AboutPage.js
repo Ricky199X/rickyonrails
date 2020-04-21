@@ -9,7 +9,7 @@ const AboutPage = () => {
                     <h1 class="white-text">About Me</h1>
                 </div>
 
-                <div class="container">
+                <div class="about-container">
                     <div class="row">
                         <div class="col s12 center">
                             {/* Headshot + Title */}
@@ -39,7 +39,7 @@ const AboutPage = () => {
             <section class="section section-skills fixed" id="skills">
                 <h1 class="white-text center">Developer Toolkit</h1>
 
-                <div class="container">
+                <div class="skills-container">
                     <div class="row text-center center">
                         <div className="col s12 l3">
                             <span class="js">
