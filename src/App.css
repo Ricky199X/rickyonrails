@@ -10,6 +10,9 @@
 body {
   font-family: 'Play';
   font-size: 32px;
+  display: flex;
+  flex: 1 0 auto;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -230,4 +233,10 @@ nav {
   padding: 50px;
   padding-top: 40px;
   padding-bottom: 80px
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
