@@ -9,7 +9,7 @@ class Home extends React.Component {
         }
     }
 
-    handleRedirect = () => {
+    redirectToHomePage = () => {
         this.setState({
             shouldRedirect: true
         })
@@ -23,7 +23,7 @@ class Home extends React.Component {
                 <div class="text-align center">
                     <div class="home-container">
                         <h1 class="home-message pulse" id="home-message">Welcome!</h1>
-                        <button class="btn-floating btn-large cyan lighten-4 pulse" onClick={this.handleRedirect}>
+                        <button class="btn-floating btn-large cyan lighten-4 pulse" onClick={this.redirectToHomePage}>
                             <i class="material-icons black-text">double_arrow</i>
                         </button>
                     </div>

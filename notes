@@ -1,31 +1,10 @@
-{/* Social Media Icons */}
-    {/* <div class="section section-follow">
-        <ul class="social">
-            <li>
-                <a href="https://github.com/Ricky199X"
-                    target="https://github.com/Ricky199X"
-                    class="white-text">
-                    <i class="fab fa-github fa-2x"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/ricky-rojas-92096965/"
-                    target="https://www.linkedin.com/in/ricky-rojas-92096965/"
-                    class="white-text">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/rickyonrails"
-                    target="https://twitter.com/rickyonrails"
-                    class="white-text">
-                    <i class="fab fa-twitter fa-2x"></i>
-                </a>
-            </li>
-        </ul>
-    </div> */}
+Potential Components:
+
+1. Email form on contact page?
+
+- Form for email contact. Form would need to route the email to my personal Gmail, wouldn't require a backend.
 
 
-    Components Needed
+Next Steps:
 
-    - Footer w logo + social icons
+1. Deploy site on Netlify
